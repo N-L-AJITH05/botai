@@ -1,0 +1,25 @@
+.conversation-container {
+    height: 80%;
+    width: 95%;
+    overflow-y: scroll;
+}
+
+.conversation-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #BFACE2 0%, #D7C7F4 100%);
+}
+
+.conversation-day {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 660px) {
+    .conversation-day {
+        font-size: 18px;
+    }
+}

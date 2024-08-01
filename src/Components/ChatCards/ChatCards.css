@@ -1,0 +1,140 @@
+.chatcards-container {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    background: var(--tertiary-color);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.chatcards-saved.chatcards-container.dark {
+    background: var(--dark-secondary);
+}
+
+.chatcards-content {
+    padding: 10px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.chatcards-content > span:first-child {
+    font-weight: 700;
+}
+
+.chatcards-content > p {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.chatcards-time {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0000009E;
+}
+
+.chatcards-container > img {
+    padding: 10px;
+    height: 69px;
+}
+
+.chatcards-saved {
+    background: linear-gradient(90deg, #BFACE2 0%, #D7C7F4 100%);
+    margin-bottom: 0;
+}
+
+.chatcards-saved.dark,
+.chatcards-container.dark {
+    background: var(--dark-secondary);
+}
+
+.chatcards-feedback {
+    max-width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+.chatcards-thumbs {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.chatcards-nofill {
+    left: 45px;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+}
+
+.chatcards-nofill.dark {
+    background-color: white;
+}
+
+.chatcards-nofill > img {
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chatcards-nofill > img:last-child {
+    margin-left: 0;
+}
+
+.chatcards-nofill > img:hover {
+    transform: scale(1.2);
+}
+
+.chatcards-fill {
+    bottom: 10px;
+    right: 10px;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.chatcards-fill.dark {
+    background: white;
+}
+
+.chatcards-thumbs > img {
+    height: 20px;
+    width: 20px;
+}
+
+.chatcards-fill > img {
+    margin: 10px;
+}
+
+.chatcards-nofill:hover {
+    cursor: pointer;
+}
+
+.chatcards-feedback:hover {
+    transform: scale(1.05);
+}
+
+.chatcards-feedback.dark {
+    background-color: var(--dark-primary);
+}
+
+.chatcards-readfeedback {
+    margin-top: 20px;
+    font-size: 16px;
+}

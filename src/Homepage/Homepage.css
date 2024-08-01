@@ -1,0 +1,19 @@
+.home-container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.home-sidebar
+{
+    width: 25%;
+}
+
+@media screen and (max-width:1080px) 
+{
+    .sidebar
+    {
+        display: none;
+    }    
+}

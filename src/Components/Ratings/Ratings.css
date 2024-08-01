@@ -1,0 +1,76 @@
+.ratings-container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;  
+    overflow-y: scroll;
+}
+
+.ratings-main {
+    padding: 20px;
+}
+
+.ratings-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ratings-filter, .ratings-sort, .ratings-cleardiv {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.ratings-filter select, .ratings-sort select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.ratings-clear {
+    background-color: var(--tertiary-color);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.ratings-clear:hover {
+    background-color: var(--secondary-color);
+}
+
+.ratings-tablediv {
+    margin-top: 20px;
+}
+
+.ratings-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ratings-table th, .ratings-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.ratings-table th {
+    background-color: var(--tertiary-color);
+    font-weight: bold;
+}
+
+.ratings-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ratings-close:hover {
+    color: var(--secondary-color);
+}

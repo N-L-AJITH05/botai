@@ -1,0 +1,6 @@
+.chats-container {
+    height: 75%;
+    width: 95%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
